@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using Big_Bang_Assessment_1.Model;
 
+
 namespace Big_Bang_Assessment_1.Repository
 {
     public class HotelRepository : IHotel
     {
         private readonly HotelDbcontext _context;
 
-        public HotelRepository( HotelDbcontext  context)
+        public HotelRepository(HotelDbcontext  context)
         {
             _context = context;
         }

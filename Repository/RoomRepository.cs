@@ -1,5 +1,4 @@
 ﻿using Big_Bang_Assessment_1.Model;
-using Microsoft.EntityFrameworkCore;
 
 namespace Big_Bang_Assessment_1.Repository
 {
